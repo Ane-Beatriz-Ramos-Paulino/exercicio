@@ -10,3 +10,4 @@
 
 imprimir ($conta->getNumero());
 imprimir ($conta->getCliente());
+//correto
