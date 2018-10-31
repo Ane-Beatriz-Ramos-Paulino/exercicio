@@ -1,0 +1,13 @@
+Crie uma classe automovel e dela crie outras 3 classes barco, fusca e aviao.
+Todas elas tem as propriedades de velocidade e potencia.
+Todas elas tem os metodos de acelerar e frear;
+A classe barco tem a funcao altura do mastro que as outras nao tem.
+A classe fusca tem a propriedade tipo de combustivel que as outras nao tem.
+A classe aviao tem a propriedade tempo de voo com tanque cheio que as outras nao tem.
+
+Ao clicar em acelerar o automovel deve acrescentar em 1*10 o valor da velocidade.
+Ao clicar em frear o automovel deve reduzir a velocidade em 1*10;
+
+Deve ser possível saber a qualquer momento se o automovel esta ligado ou desligado.
+
+Automovel desligado nao recebe aceleracao.
