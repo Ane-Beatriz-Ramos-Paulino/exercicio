@@ -22,7 +22,7 @@ class Conta{
 class ContaPoupanca extends Conta{
     private $juros;
     public function calcula(){
-        $this->$juros = getSaldo()* 0.5;
+        $this-> getSaldo() +=10;
         return $this->$juros ;
     }
 }
