@@ -8,9 +8,9 @@
     echo "Idade: ".$idade."<br>";
     
     If($idade>=21){
-        echo "Você já tem maioridade jurídica";
+        echo "Você já tem maioridade jurídica!";
     }else{
-        echo "Você ainda não tem maioridade jurídica";
+        echo "Você ainda não tem maioridade jurídica!";
     }
 
     
