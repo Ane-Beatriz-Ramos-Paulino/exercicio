@@ -1,26 +1,41 @@
 <?php
 
     $capitais = array (
-        "Florianópolis",
+        "Rio Branco",
+        "Macapá",
+        "Manaus",
+        "Belém", 
+        "Porto Velho",
+        "Boa Vista",
+        "Palmas",
+        "Maceió",
+        "Salvador",
+        "Fortaleza",
+        "São Luís",
+        "João Pessoa",
+        "Recife",
+        "Teresina",
+        "Natal",
+        "Aracaju",
+        "Goiânia",
+        "Cuiabá",
+        "Campo Grande",
+        "Brasília",
+        "Vitória",
+        "Belo Horizonte",
         "São Paulo",
         "Rio de Janeiro",
         "Curitiba",
-        "Palmas",
         "Porto Alegre",
-        "Natal",
-        "Rio Branco",
-        "Recife",
-        "Belém"
-
+        "Florianópolis"
     );
 
-    echo current ($capitais) . "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
-    echo next ($capitais). "<br>";
+    $cidade = "São Paulo";
+    
+    if(in_array($cidade, $capitais)){
+        echo $cidade . " é uma capital";
+    }else{
+        echo $cidade . " não é uma capital";
+    }
+
+    
