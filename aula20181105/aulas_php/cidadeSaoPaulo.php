@@ -9,5 +9,11 @@
         "prefeito"=>"Bruno Covas Lopes"
     );
 
-    print("<pre>");
-    var_dump($saoPaulo);
+    
+
+    echo "O aniversário de São Paulo é em: " . $saoPaulo[aniversario]. "<br>";
+    echo "São Paulo foi fundada em: " .$saoPaulo[fundacao]. "<br>";
+    echo "O gentilico de São Paulo é: " .$saoPaulo[gentilico]. "<br>";
+    echo "O lema de São Paulo é : " .$saoPaulo[lema]. "<br>";
+    echo "O padroeiro de São Paulo é : " .$saoPaulo[padroeiro]. "<br>";
+    echo "O prefeito de São Paulo é o: " .$saoPaulo[prefeito]. "<br>";
