@@ -1,6 +1,6 @@
 <?php
 
-    $numero = 12;
+    $numero = 10;
 
     
             $div10 = $numero % 10 == 0;
@@ -11,7 +11,7 @@
 
                 echo "$numero não é divisível por nenhum dos números( 2, 5 e 10)";
 
-            }else if ($div10 && $div5 && $div2){
+            }elseif ($div10 && $div5 && $div2){
 
                 echo "$numero é divisível pelos três números( 2, 5 e 10)";
 
