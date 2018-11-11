@@ -23,6 +23,26 @@ $personalidades = array (
     "Sócrates"
 );
 
+asort($personalidades);
+
+echo "<br><br>Lista de Personalidades Históricas em ordem alfabética crescente: <br>";
+
+foreach($personalidades as $personalidade){
+    echo "$personalidade <br>";
+}
+
+arsort($personalidades);
+
+echo "<br><br>Lista de Personalidades Históricas em ordem alfabética decrescente: <br>";
+
+foreach($personalidades as $personalidade){
+    echo "$personalidade <br>";
+}
+
+shuffle($personalidades);
+
+echo "<br><br>Lista de Personalidades Históricas desordenada: <br>";
+
 foreach($personalidades as $personalidade){
     echo "$personalidade <br>";
 }
