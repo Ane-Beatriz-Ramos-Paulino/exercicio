@@ -5,14 +5,14 @@
     $senha = "phprs";
     $banco = "curso_php";
 
-    $conn = new mysqli($servidor, $usuario, $senha);
+    $conn = new mysqli($servidor, $usuario, $senha, $banco);
 
     if ($conn->conect_error){
         die("Erro de conexão" . $conn->conect_error);
 
     }
 
-    $sql = "SELECT * FROM 'tarefas'";
+    $sql = "SELECT * FROM `usuarios`";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0){
