@@ -9,4 +9,6 @@
         echo  $materia . ", ";
     }
 
+    echo "<br>";
+    echo "Bio do Aluno: ". $_POST["biografia"] . "<br>";
     echo "<hr>";

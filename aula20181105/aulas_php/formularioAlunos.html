@@ -1,11 +1,14 @@
 <meta charset = "UTF-8">
 <form action = "procFormularioAlunos.php" method = "POST">
+    
     <label>Nome Completo:</label>
     <input type = "text" name = "nome"/><br>
+
     <label>Período:</label>
     <input type = "radio" name = "periodo" value = "Manhã"/>Manhã
     <input type = "radio" name = "periodo" value = "Tarde"/>Tarde
     <input type = "radio" name = "periodo" value = "Noite"/>Noite<br>
+
     <label>Matérias:</label><br>
     <select name = "materias[]" size = "3" multiple>
         <option value = "PHP">PHP</option>
@@ -13,5 +16,11 @@
         <option value = "JAVA">JAVA</option>
         <option value = "C#">C#</option>
     </select><br>
+
+    <label>Conte-nos mais porque você gostaria de estudar conosco:</label><br>
+    <textarea name = "biografia" rows = 5 cols = 50 ></textarea>
+
+    <br><br>
+
     <input type = "submit" value = "Enviar Dados"/><br>
 </form>
