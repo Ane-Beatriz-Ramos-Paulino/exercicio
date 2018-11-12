@@ -11,4 +11,6 @@
 
     echo "<br>";
     echo "Bio do Aluno: ". $_POST["biografia"] . "<br>";
+    echo "E-mail: " . $_POST["email"] . "<br>";
+    echo "Senha: " . $_POST["senha"] . "<br>";
     echo "<hr>";
