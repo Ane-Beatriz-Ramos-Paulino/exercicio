@@ -39,6 +39,8 @@
 
             if ($result->num_rows > 0){
                 echo $result->num_rows ." registro(s) listado(s) <br><br>";
+                echo "<a href = 'cadastroUsuarios.php'>Cadastrar Usuário</a><br><br>";
+                
                 echo "<table>";
 
                 echo "<tr>
