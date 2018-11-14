@@ -40,7 +40,7 @@
             if ($result->num_rows > 0){
                 echo $result->num_rows ." registro(s) listado(s) <br><br>";
                 echo "<a href = 'cadastroUsuarios.php'>Cadastrar Usuário</a><br><br>";
-                
+
                 echo "<table>";
 
                 echo "<tr>
@@ -48,6 +48,7 @@
                         <th>E-mail</th>
                         <th>Senha</th>
                         <th>Status</th>
+                        <th>Excluir</th>
                        </tr>";
 
                 while($row = $result->fetch_assoc()){
@@ -58,7 +59,7 @@
                     echo "<td>". $row["email"]. "</td>";
                     echo "<td>". $row["senha"]. "</td>";
                     echo ($row["status"]==1)? $row["status"]."<td> O Usuário está ativo! </td>": "<td> O Usuário está desativado! </td>";
-                   
+                    echo "<td><a href = 'excluirUsuario.php?id=". $row["id"] . "'>Excluir</a></td>";
 
                     echo "</tr>";
                 }
