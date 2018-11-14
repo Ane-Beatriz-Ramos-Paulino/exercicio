@@ -59,8 +59,11 @@
                     echo "<td>". $row["email"]. "</td>";
                     echo "<td>". $row["senha"]. "</td>";
                     echo ($row["status"]==1)? $row["status"]."<td> O Usuário está ativo! </td>": "<td> O Usuário está desativado! </td>";
-                    echo "<td><a href = 'excluirUsuario.php?id=". $row["id"] . "'>Excluir</a></td>";
-
+                    echo "<td>";
+                    echo "<a href = 'excluirUsuario.php?id=". $row["id"] . "'>Excluir</a>";
+                    echo "&nbsp;|&nbsp;";
+                    echo "<a href = 'cadastroUsuarios.php?id=". $row["id"] . "'>Editar</a>";
+                    echo"</td>";
                     echo "</tr>";
                 }
                 echo "</table>";
