@@ -45,6 +45,7 @@
                         <th>ID</th>
                         <th>E-mail</th>
                         <th>Senha</th>
+                        <th>Status</th>
                        </tr>";
 
                 while($row = $result->fetch_assoc()){
@@ -54,6 +55,8 @@
                     echo "<td>". $row["id"]. "</td>";
                     echo "<td>". $row["email"]. "</td>";
                     echo "<td>". $row["senha"]. "</td>";
+                    echo ($row["status"]==1)? $row["status"]."<td> O Usuário está ativo! </td>": "<td> O Usuário está desativado! </td>";
+                   
 
                     echo "</tr>";
                 }
