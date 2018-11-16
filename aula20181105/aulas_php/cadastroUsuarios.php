@@ -49,12 +49,16 @@
             <input type = "password" name="senha" value = "<?=$password?>"/><br>
 
             <label>Status</label><br>
-            <input type = "radio" name = "status" value = "1" <?=$row["status"]==1?"CHECKED":"";?>/>Ativado
-            <input type = "radio" name = "status" value = "0" <?=$row["status"]==0?"CHECKED":"";?>/>Desativado
+            <input type = "radio" name = "status" value = "1" <?=$status==1?"CHECKED":"";?>/>Ativado
+            <input type = "radio" name = "status" value = "0" <?=$status==0?"CHECKED":"";?>/>Desativado
             
             <br><br>
 
-            <input type = "submit" value = "Cadastrar Usuário"/><br>
+            <input type = "submit" value = "Gravar Dados"/><br>
+
+            <input type = "hidden" name = "id" value = "<?=$id?>"/>
+
+            
         </form>
     </body>
 </html>
