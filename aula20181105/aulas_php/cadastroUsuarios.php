@@ -60,5 +60,9 @@
 
             
         </form>
+
+        <br><br>
+        <a href = "conectandoDB.php">Voltar</a>
+        
     </body>
 </html>
