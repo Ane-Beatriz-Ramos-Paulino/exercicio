@@ -41,4 +41,4 @@
 
    $conn->close();
 ?>
-<a href = "conectandoDB.php">Voltar</a>
+<a href = "index.php">Voltar</a>

@@ -26,7 +26,7 @@
     </style>
     <body>
 
-        <form action = "conectandoDB.php" method = "GET">
+        <form action = "index.php" method = "GET">
             <input type = "text" name = "q"/>
             <input type = "submit" value = "Pesquisar"/>
         </form>
